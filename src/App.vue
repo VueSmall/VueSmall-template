@@ -2,10 +2,8 @@
 <script>
 import {defineComponent} from "vue";
 import count from '@/components/count.vue'
-import Count from "@/components/count.vue";
 export default defineComponent({
-    components: {Count},
-    mounted() {
+    components:{
         count
     }
 })
