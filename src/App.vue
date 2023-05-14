@@ -1,16 +1,16 @@
 <!--Author:VueSmall-->
 <script>
 import {defineComponent} from "vue";
-import count from '@/components/count.vue'
+import content from '@/components/content.vue'
 export default defineComponent({
     components:{
-        count
+        content
     }
 })
 </script>
 <template>
   <p>VueSmall</p>
-  <count></count>
+  <content></content>
 </template>
 <style>
 *{
